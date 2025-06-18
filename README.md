@@ -443,6 +443,8 @@ Se necessário, abra o arquivo `.git/hooks/commit-msg` em um editor de texto e p
 
 - `git cherry-pick HASH_DO_COMMIT` - Utilizado para obter um commit específico. Exemplo de uso: Imagine que você tenha duas branchs (main) e (develop) e na segunda você tem 3 commits mas deseja apenas pegar o primeiro commit dela, com o uso de cherry-pick você pode.
 
+- `git log` - Basicamente, permite a visualização de um a lista cronológica do histórico de commits, útil caso queira navegar e analisar um projeto. Podendo por exemplo filtrar commits por autor `--author`, por período `--since` e `--until` ou `--grep` para padrões de mensagem do commit.
+
 # Glossário 📖
 
 - `fork` - Cópia de um repositório para a sua própria conta no GitHub. Isso cria um novo repositório em sua conta que é independente do original, permitindo que você faça alterações sem afetar o repositório original.
